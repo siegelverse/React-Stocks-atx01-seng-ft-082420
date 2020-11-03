@@ -3,7 +3,7 @@ import React from 'react';
 const SearchBar = () => {
   return (
     <div>
-
+      <input type="text" onChange={(e) => console.log(e.target.value)}/>
       <strong>Sort by:</strong>
       <label>
         <input type="radio" value="Alphabetically" checked={null} onChange={null}/>
